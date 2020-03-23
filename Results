@@ -1,0 +1,75 @@
+Testing started at 9:35 AM ...
+/Users/derekjohnson/.pyenv/versions/3.8.1/bin/python "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevd.py" --multiproc --qt-support=auto --client 127.0.0.1 --port 64128 --file "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pycharm/_jb_unittest_runner.py" --path /Users/derekjohnson/Documents/Derek/GitHub/Python/interview_projects/Selenium/selenium_test.py
+pydev debugger: process 88772 is connecting
+
+Connected to pydev debugger (build 193.6494.30)
+Launching unittests with arguments python -m unittest /Users/derekjohnson/Documents/Derek/GitHub/Python/interview_projects/Selenium/selenium_test.py in /Users/derekjohnson/Documents/Derek/GitHub/Python/interview_projects/Selenium
+
+Ran 2 tests in 24.111s
+
+OK
+
+Process finished with exit code 0
+
+Running test: test_01_lorem_ipsum_text
+Stretch Goal:  Largest word(s) of length 13 are: ['reprehenderit']
+Largest Word length = 13
+
+Running test: test_02_punisher_not_found_print_image_names
+Stretch Goal:  Print Names of Images
+Found image: Hawk-Punisher
+Found image: StormTrooper
+Found image: Mario
+
+
+
+# ---------------------------------------------------------------------------------------------------------------------
+#
+#                   Example where punisher image was found and testcase failed (As expected)
+#
+# ---------------------------------------------------------------------------------------------------------------------
+
+Testing started at 9:48 AM ...
+/Users/derekjohnson/.pyenv/versions/3.8.1/bin/python "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevd.py" --multiproc --qt-support=auto --client 127.0.0.1 --port 52284 --file "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pycharm/_jb_unittest_runner.py" --path /Users/derekjohnson/Documents/Derek/GitHub/Python/interview_projects/Selenium/selenium_test.py
+pydev debugger: process 88863 is connecting
+
+Connected to pydev debugger (build 193.6494.30)
+Launching unittests with arguments python -m unittest /Users/derekjohnson/Documents/Derek/GitHub/Python/interview_projects/Selenium/selenium_test.py in /Users/derekjohnson/Documents/Derek/GitHub/Python/interview_projects/Selenium
+
+
+Running test: test_01_lorem_ipsum_text
+Stretch Goal:  Largest word(s) of length 13 are: ['reprehenderit']
+Largest Word length = 13
+
+Running test: test_02_punisher_not_found_print_image_names
+Stretch Goal:  Print Names of Images
+Found image: Mario
+Found image: Punisher
+Found image: Punisher
+
+Failure
+Traceback (most recent call last):
+  File "/Users/derekjohnson/.pyenv/versions/3.8.1/lib/python3.8/unittest/case.py", line 60, in testPartExecutor
+    yield
+  File "/Users/derekjohnson/.pyenv/versions/3.8.1/lib/python3.8/unittest/case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "/Users/derekjohnson/.pyenv/versions/3.8.1/lib/python3.8/unittest/case.py", line 633, in _callTestMethod
+    method()
+  File "/Users/derekjohnson/Documents/Derek/GitHub/Python/interview_projects/Selenium/selenium_test.py", line 125, in test_02_punisher_not_found_print_image_names
+    self.assertFalse(found_punisher, "Failed, found the Punisher image on the screen")
+  File "/Users/derekjohnson/.pyenv/versions/3.8.1/lib/python3.8/unittest/case.py", line 759, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Failed, found the Punisher image on the screen
+
+
+Assertion failed
+
+Assertion failed
+
+
+Ran 2 tests in 26.096s
+
+FAILED (failures=1)
+
+Process finished with exit code 1
+
