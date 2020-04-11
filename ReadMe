@@ -18,3 +18,38 @@ This test may pass or fail on any given execution depending on whether the punis
 
 Stretch goal:
 Give names to each avatar that can appear on the page and print out each avatars name.
+
+
+-------------------------------------------------------
+Some Personal Context about this programming challenge:
+-------------------------------------------------------
+
+I realize some people might come across these examples from others.  But there is some context missing, 
+which I shared with the interviewers.  In my Resume and qualifications, I don’t state that I have direct 
+experience with Selenium.  However I do have indirect experience with selenium and direct experience with 
+similar tools and understand pretty well what selenium is used for.  I just haven’t had the opportunity yet
+to really use it in a professional environment, although I have helped people use it!
+
+At Skyfire, about 6 years ago, the Android automation team wanted Selenium support in our custom Skyfire 
+Augmented Android browser (which was our product) but it wasn’t part of our browser.  As team lead, I did 
+some research and found out how to enable Skyfire’s browser to use WebDriver.  This allowed the Android team
+to use it for any UI work they needed.  I wrote some sample tests to verify it was working as expected and 
+then helped the Android automation engineers get up to speed with it also.  They hadn’t used Selenium before, 
+but felt it would help them if they could use it.  
+
+I worked on the iOS Side, and selenium in many ways is similar to Apples Instruments/UIAutomator, which I used
+extensively.  So I’m very familiar with using these types of tools, but may not have a lot of direct experience with selenium. 
+In this task, I quickly got selenium running and working and came across a situation I spent some time trying 
+to understand how to get the information from Selenium..  I tried a few other approaches too.  
+For those people who use selenium daily they might easily know what I needed to do at this particular point.  
+
+However, I thought this might be a good opportunity to show additional skills I have.  I have developed many 
+testing tools and frameworks to make testing more efficient and have more coverage.  I have written many 
+parsers to parse through all sorts of data and this is just simply  parsing the DOM, Selenium can do it, or I can.  
+Parsing comes naturally in testing.  It literally took me about 10 minutes to write a regex arser to get exactly the 
+information I needed, either working around limitations in test tools or augmenting test tools to create more usefulness.  
+I would have had to do some of this logic regardless to find the names of the images.
+I have the skills and ability to enhance or work around issues as needed.  And thought this would be a good example in that case.  
+It got me to the next round in the interview process and I probably would have got the job, if not for coronavirus where they 
+slowed down hiring and told me they preferred to hire in the Bay Area which is where their mobile dev team is.
+However the job was listed in either Draper or the Bay Area.  So I pursued it!
